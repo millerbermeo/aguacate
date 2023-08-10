@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+  </head>
+  <body>
+    <h1>Paqueadero</h1>
+    <br />
+
+    <div class="form-box">
+      <form action="procesarFormulario.php" method="post">
+        <br />
+        <h2>Ingresar datos:</h2>
+        <br />
+        <label>Ingrese Nombre:</label><br />
+        <input type="text" name="nombreCliente" /><br /><br />
+      
+        <br />
+        <label>Ingrese Documento:</label><br />
+        <input type="text" name="documentoCliente" /><br /><br />
+        
+        <br />
+        <label>Ingresar Marca del Vehiculo:</label><br />
+        <input type="text" name="marcaVehiculo" /><br /><br />
+       
+        <br />
+        <label>Ingresar Placa del vehiculo:</label><br />
+        <input type="text" name="placaVehiculo" /><br /><br />
+       
+        <br />
+        <label>Ingresar Color del vehiculo:</label><br />
+        <input type="text" name="color" /><br /><br />
+       <!-- CREE EL INPUT PARA LA UBICACION -->
+        <br />
+        <label>Ingresar Ubicacion:</label><br />
+        <input type="text" name="ubicacion" /><br /><br />
+               <!-- CREE EL INPUT PARA LA UBICACION -->
+        <div>
+          <input class="button" type="submit" name="" value="Enviar" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
